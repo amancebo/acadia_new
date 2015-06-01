@@ -9,7 +9,7 @@
     <use_aotf type="boolean">TRUE</use_aotf>
     <frequency type="float">88.60</frequency>
     <amplitude type="int">7600</amplitude>
-    <ni_board type="string">PCI-6722</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">0</dig_line>
   </block>
   <block>
@@ -21,7 +21,7 @@
     <use_aotf type="boolean">TRUE</use_aotf>
     <frequency type="float">107.710</frequency>
     <amplitude type="int">6400</amplitude>
-    <ni_board type="string">PCI-6722</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">1</dig_line>
   </block>
   <block>
@@ -33,7 +33,7 @@
     <use_aotf type="boolean">TRUE</use_aotf>
     <frequency type="float">115.64</frequency>
     <amplitude type="int">7000</amplitude>
-    <ni_board type="string">PCI-6722</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">2</dig_line>
   </block>
   <block>
@@ -45,7 +45,7 @@
     <use_aotf type="boolean">TRUE</use_aotf>
     <frequency type="float">141.97</frequency>
     <amplitude type="int">5500</amplitude>
-    <ni_board type="string">PCI-6722</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">3</dig_line>
   </block>
   <block>
@@ -57,7 +57,7 @@
     <use_cube405 type="boolean">TRUE</use_cube405>
     <frequency type="float">0.0</frequency>
     <amplitude type="int">5000</amplitude>
-    <ni_board type="string">PCI-6722</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">4</dig_line>
   </block>
   <block>
@@ -67,7 +67,7 @@
     <min_voltage type="float">0.0</min_voltage>
     <max_voltage type="float">5.0</max_voltage>
     <mechanical_shutter type="boolean">TRUE</mechanical_shutter>
-    <ni_board type="text">PCI-6722</ni_board>
+    <ni_board type="text">none</ni_board>
     <ao_channel type="int">5</ao_channel>
   </block>
 </power_control_settings>

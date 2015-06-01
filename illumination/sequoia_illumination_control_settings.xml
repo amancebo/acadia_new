@@ -9,7 +9,7 @@
     <use_obis642 type="boolean">TRUE</use_obis642>
     <frequency type="float">0.0</frequency>
     <amplitude type="int">11000</amplitude>
-    <ni_board type="string">PCIe-6353</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">0</dig_line>
   </block>
   <block>
@@ -21,7 +21,7 @@
     <use_obis488 type="boolean">TRUE</use_obis488>
     <frequency type="float">0.0</frequency>
     <amplitude type="int">10000</amplitude>
-    <ni_board type="string">PCIe-6353</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">1</dig_line>
   </block>
   <block>
@@ -33,7 +33,7 @@
     <use_obis405 type="boolean">TRUE</use_obis405>
     <frequency type="float">0.0</frequency>
     <amplitude type="int">10000</amplitude>
-    <ni_board type="string">PCIe-6353</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">2</dig_line>
   </block>
   <block>
@@ -45,7 +45,7 @@
     <use_sapphire561 type="boolean">TRUE</use_sapphire561>
     <frequency type="float">0.0</frequency>
     <amplitude type="int">10000</amplitude>
-    <ni_board type="string">PCIe-6353</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">3</dig_line>
   </block>
   <block>
@@ -57,7 +57,7 @@
     <use_thorlabsLED type="boolean">TRUE</use_thorlabsLED>
     <frequency type="float">0.0</frequency>
     <amplitude type="int">10000</amplitude>
-    <ni_board type="string">PCIe-6353</ni_board>
+    <ni_board type="string">none</ni_board>
     <dig_line type="int">4</dig_line>
   </block>
 </power_control_settings>
