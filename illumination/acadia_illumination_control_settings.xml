@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<power_control_settings>
+  <block>
+    <description type="text">642</description>
+    <color type="rgb">255,0,0</color>
+    <channel type="int">0</channel>
+    <min_voltage type="float">0.0</min_voltage>
+    <max_voltage type="float">5.0</max_voltage>
+    <use_cube642 type="boolean">TRUE</use_cube642>
+    <frequency type="float">0.0</frequency>
+    <amplitude type="int">11000</amplitude>
+    <ni_board type="string">PCI-6221</ni_board>
+    <dig_line type="int">0</dig_line>
+  </block>
+  <block>
+    <description type="text">561</description>
+    <color type="rgb">128,255,0</color>
+    <channel type="int">2</channel>
+    <min_voltage type="float">0.0</min_voltage>
+    <max_voltage type="float">5.0</max_voltage>
+    <use_obis561 type="boolean">TRUE</use_obis561>
+    <frequency type="float">0.0</frequency>
+    <amplitude type="int">10000</amplitude>
+    <ni_board type="string">PCI-6221</ni_board>
+    <dig_line type="int">2</dig_line>
+  </block>
+  <block>
+    <description type="text">LED</description>
+    <color type="rgb">255,255,255</color>
+    <channel type="int">3</channel>
+    <min_voltage type="float">0.0</min_voltage>
+    <max_voltage type="float">5.0</max_voltage>
+    <use_thorlabsLED type="boolean">TRUE</use_thorlabsLED>
+    <frequency type="float">0.0</frequency>
+    <amplitude type="int">10000</amplitude>
+    <ni_board type="string">PCI-6221</ni_board>
+    <dig_line type="int">2</dig_line>
+  </block>
+</power_control_settings>

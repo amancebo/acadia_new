@@ -1,0 +1,5 @@
+FILE DELETED
+
+Microsoft Forefront Security for Exchange Server removed a file since it was found to match a filter.
+File name: "hal4000_07-02-10.zip->hal-4000.bat"
+Filter name: "FILE FILTER= blocked files list: *.bat"
