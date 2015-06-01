@@ -132,7 +132,7 @@ class AndorCamera:
 
         # initialize the camera
         setCurrentCamera(self.camera_handle)
-        andorCheck(andor.Initialize(andor_path + "Detector.ini"), "Initialize")
+        andorCheck(andor.Initialize(andor_path + "Device Driver/USB/andor-libusb.inf"), "Initialize")
 
         # determine camera capabilities (useful??)
         caps = AndorCapabilities(sizeof(c_ulong)*12,0,0,0,0,0,0,0,0,0,0,0)
@@ -864,7 +864,7 @@ if __name__ == "__main__":
         for key in keys:
             print key, '\t', dictionary[key]
 
-    andor_path = "c:/Program Files (x86)/Andor SOLIS/Drivers/"
+    andor_path = "c:/Program Files/Andor Driver Pack 2/"
     loadAndorDLL(andor_path + "atmcd64d.dll")
     print getAvailableCameras(), "cameras connected"
     handles = getCameraHandles()

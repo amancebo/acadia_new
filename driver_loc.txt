@@ -1,0 +1,7 @@
+C:\Program Files\Andor Driver Pack 2\Device Driver\USB\
+
+# driver is
+andor-libusb.inf
+
+# and library is
+x86\libusb0_x86.dll
