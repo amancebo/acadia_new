@@ -291,18 +291,18 @@ class AcadiaShutterControl(shutterControl.ShutterControl):
         #for i in range(self.number_channels - 1):
         #    self.wv_task.addChannel(i + 1)
 
-        # set up the digital channels
-        self.wv_task = nicontrol.DigWaveformOutput(self.board, 0) #Was DigWaveformOutput (changed 4/16/2014)
-        for i in range(self.number_channels - 1):
-            self.wv_task.addDigChannel(i + 1)
+        # # set up the digital channels
+        # self.wv_task = nicontrol.DigWaveformOutput(self.board, 0) #Was DigWaveformOutput (changed 4/16/2014)
+        # for i in range(self.number_channels - 1):
+        #     self.wv_task.addDigChannel(i + 1)
         
-        # set up the waveform
-        self.wv_task.setDigWaveform(self.waveforms, frequency) #Was setDigWaveform (changed 4/16/2014)
+        # # set up the waveform
+        # self.wv_task.setDigWaveform(self.waveforms, frequency) #Was setDigWaveform (changed 4/16/2014)
 
-        # set up the counter
-        self.ct_task = nicontrol.CounterOutput(self.board, 0, frequency, 0.5)
-        self.ct_task.setCounter(self.waveform_len)
-        self.ct_task.setTrigger(0)
+        # # set up the counter
+        # self.ct_task = nicontrol.CounterOutput(self.board, 0, frequency, 0.5)
+        # self.ct_task.setCounter(self.waveform_len)
+        # self.ct_task.setTrigger(0)
 
     def startFilm(self):
         self.wv_task.startTask()
@@ -326,13 +326,13 @@ class AcadiaShutterControl(shutterControl.ShutterControl):
         #    ao_task.stopTask()
         #    ao_task.clearTask()
 
-        # reset all the digital signals.
-        for i in range(self.number_channels): #we have exactly 1 channel at all times
-            do_task = nicontrol.DigitalOutput(self.board, i)
-            do_task.output(0)
-            do_task.startTask()
-            do_task.stopTask()
-            do_task.clearTask()
+        # # reset all the digital signals.
+        # for i in range(self.number_channels): #we have exactly 1 channel at all times
+        #     do_task = nicontrol.DigitalOutput(self.board, i)
+        #     do_task.output(0)
+        #     do_task.startTask()
+        #     do_task.stopTask()
+        #     do_task.clearTask()
 
 #
 # Illumination power control dialog box specialized for Sequoia).
