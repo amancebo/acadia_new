@@ -8,13 +8,13 @@
 
 # qpd and stage.
 import madCityLabs.mclController as mclController
-import phreshPhotonics.phreshQPD as phreshQPD
+# import phreshPhotonics.phreshQPD as phreshQPD
 
 # focus lock control thread.
 import focuslock.stageQPDControl as stageQPDControl
 
 # ir laser control
-import thorlabs.LDC210 as LDC210
+# import thorlabs.LDC210 as LDC210
 
 # focus lock dialog.
 import focuslock.focusLockZ as focusLockZ
