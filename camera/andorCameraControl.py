@@ -134,26 +134,26 @@ class ACameraControl(cameraControl.CameraControl):
             hdebug.logText("Initializing Andor Camera", False)
 
             if (platform.architecture()[0] == "32bit"):
-                path = "c:/Program Files/Andor iXon/Drivers/"
+                path = "c:/Program Files/Andor Driver Pack 2/"
                 driver = "atmcd32d.dll"
                 if os.path.exists(path + driver):
                     self.initCameraHelperFn(path, driver, pci_card)
                     return
 
-                path = "c:/Program Files/Andor Solis/Drivers/"
+                path = "c:/Program Files/Andor Driver Pack 2/"
                 driver = "atmcd32d.dll"
                 if os.path.exists(path + driver):
                     self.initCameraHelperFn(path, driver, pci_card)
                     return
 
             else:
-                path = "c:/Program Files/Andor Solis/Drivers/"
+                path = "c:/Program Files/Andor Driver Pack 2/"
                 driver = "atmcd64d.dll"
                 if os.path.exists(path + driver):
                     self.initCameraHelperFn(path, driver, pci_card)
                     return
 
-                path = "c:/Program Files (x86)/Andor Solis/Drivers/"
+                path = "c:/Program Files/Andor Driver Pack 2/"
                 driver = "atmcd64d.dll"
                 if os.path.exists(path + driver):
                     self.initCameraHelperFn(path, driver, pci_card)
