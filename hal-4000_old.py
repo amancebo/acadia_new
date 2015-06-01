@@ -361,7 +361,7 @@ class Window(QtGui.QMainWindow):
         # Camera
         cameraControl = __import__('camera.' + camera_type + 'CameraControl', globals(), locals(), [camera_type], -1)
         self.camera_control = cameraControl.ACameraControl(parameters, parent = self)
-        self.camera_display = cameraDisplay.CameraDisplay(parameters, parent = self.ui.cameraFrame)
+        self.camera_display = cameraDisplay.CameraDisplay(PyQt4, parameters, parent = self.ui.cameraFrame, camera_type)
         self.camera_params = cameraParams.CameraParams(parent = self.ui.cameraParamsFrame)
 
         # AOTF / DAQ illumination control
